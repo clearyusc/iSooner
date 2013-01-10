@@ -1,0 +1,25 @@
+//
+//  ShortcutCell.h
+//  COP File Tree Reader
+//
+//  Created by Ryan Cleary on 7/6/12.
+//  Copyright (c) 2012 ConocoPhillips. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface ShortcutCell : UITableViewCell
+{
+    IBOutlet UIImageView *leftSideImage;
+    IBOutlet UILabel *nameLabel;
+}
+
+@property (nonatomic, strong) IBOutlet UIImageView *leftSideImage;
+@property (nonatomic, strong) IBOutlet UILabel *nameLabel;
+
+
+
+@end
+
+
+

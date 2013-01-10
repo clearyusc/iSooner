@@ -1,0 +1,16 @@
+//
+//  ShortcutCell.m
+//  COP File Tree Reader
+//
+//  Created by Ryan Cleary on 7/6/12.
+//  Copyright (c) 2012 ConocoPhillips. All rights reserved.
+//
+
+#import "ShortcutCell.h"
+
+@implementation ShortcutCell
+
+@synthesize leftSideImage, nameLabel;
+
+
+@end
